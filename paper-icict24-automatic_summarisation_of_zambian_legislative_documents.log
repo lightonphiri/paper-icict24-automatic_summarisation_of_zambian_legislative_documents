@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.7)  23 SEP 2024 22:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.7)  23 SEP 2024 23:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,7 +348,7 @@ _2018-eps-converted-to.pdf>
 (epstopdf)             Command: <repstopdf --outfile=figures/img-icict24-statut
 ory_instrument12_2018-eps-converted-to.pdf figures/img-icict24-statutory_instru
 ment12_2018.eps>
-(epstopdf)             \includegraphics on input line 106.
+(epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
 <figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf, id=11, 1
 606.0pt x 590.205pt>
@@ -356,27 +356,31 @@ File: figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf Grap
 hic file (type pdf)
 <use figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf>
 Package pdftex.def Info: figures/img-icict24-statutory_instrument12_2018-eps-co
-nverted-to.pdf  used on input line 106.
+nverted-to.pdf  used on input line 128.
 (pdftex.def)             Requested size: 1605.99611pt x 590.20355pt.
-<figures/img-icict24-summary1_output.png, id=12, 373.395pt x 387.24675pt>
+ [2]
+<figures/img-icict24-summary1_output.png, id=15, 373.395pt x 387.24675pt>
 File: figures/img-icict24-summary1_output.png Graphic file (type png)
 <use figures/img-icict24-summary1_output.png>
 Package pdftex.def Info: figures/img-icict24-summary1_output.png  used on input
- line 156.
+ line 178.
 (pdftex.def)             Requested size: 373.39409pt x 387.24579pt.
 
-Overfull \hbox (1.00392pt too wide) in paragraph at lines 156--157
+Overfull \hbox (1.00392pt too wide) in paragraph at lines 178--179
 [][] 
  []
 
-<figures/img-icict24-summary2_output.png, id=14, 693.18974pt x 390.86024pt>
+<figures/img-icict24-summary2_output.png, id=17, 693.18974pt x 390.86024pt>
 File: figures/img-icict24-summary2_output.png Graphic file (type png)
 <use figures/img-icict24-summary2_output.png>
 Package pdftex.def Info: figures/img-icict24-summary2_output.png  used on input
- line 165.
+ line 187.
 (pdftex.def)             Requested size: 693.18805pt x 390.85928pt.
-[2]
 (./paper-icict24-automatic_summarisation_of_zambian_legislative_documents.bbl
+Underfull \vbox (badness 1824) has occurred while \output is active []
+
+ [3 <./figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf> <.
+/figures/img-icict24-summary1_output.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 30--34
 []\OT1/ptm/m/n/8 ------, ``The Na-tional As-sem-bly of Zam-
  []
@@ -387,7 +391,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--34
  []
 
 
-Overfull \hbox (69.1726pt too wide) in paragraph at lines 30--34
+Overfull \hbox (73.1726pt too wide) in paragraph at lines 30--34
 \OT1/ptm/m/n/8 https://www.parliament.gov.zm/sites/default/files/documents/page
 s/Strategic%20Plan%202022-
  []
@@ -404,9 +408,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3 <./figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf> <./
-figures/img-icict24-summary1_output.png> <./figures/img-icict24-summary2_output
-.png>]
+[4
+
+ <./figures/img-icict24-summary2_output.png>]
 (./paper-icict24-automatic_summarisation_of_zambian_legislative_documents.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
@@ -414,10 +418,10 @@ L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6263 strings out of 475237
- 112133 string characters out of 5764559
- 1936244 words of memory out of 5000000
- 27460 multiletter control sequences out of 15000+600000
+ 6277 strings out of 475237
+ 112517 string characters out of 5764559
+ 1935244 words of memory out of 5000000
+ 27474 multiletter control sequences out of 15000+600000
  601561 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,2534b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -427,10 +431,10 @@ l/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on paper-icict24-automatic_summarisation_of_zambian_legislative_
-documents.pdf (3 pages, 448228 bytes).
+documents.pdf (4 pages, 453280 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

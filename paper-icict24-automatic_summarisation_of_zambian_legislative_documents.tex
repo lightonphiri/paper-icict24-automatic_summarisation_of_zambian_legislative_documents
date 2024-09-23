@@ -85,7 +85,29 @@ This paper is organised as follows: \Cref{sec:introduction} provides context and
 
 \section{Related Work}
 \label{sec:related_work}
-Xxxxx xxxxx xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx.
+
+\subsection{Legislative Document Complexities}
+\label{sec:related_work:challenges}
+
+The specific challenges associated with comprehending legislative documents are discused by Masson and Tahir, where they place emphasis on interpretation of legal information \cite{Masson2016Legal}. The study by Masson and Tahir highlighted the difficulties with accessing legal documents being linked to administrative, financial and technique barriers. In addition, the study identified common sources of legislative documents, such as National Assembly. More significantly, however, one of the findings from the study was the difficulties Civil Society Organisations face interpreting legal and legislative documents.
+
+This paper proposes an automated approach to interpretating and hence summarising legislative documents.
+
+\subsection{Legislative Document Summarisation}
+\label{sec:related_work:summarisation_techniques}
+There are two classical techniques that are used during document summarisation: abstractive summarisation and extracting summarisation. Abstractive summarisation techniques generate summaries which capture the main information and meaning of textual input using new text, while extractive summarisation functions by identifying important elements from the original text \cite{Mehta2016Extractive}.
+
+Numerous studies have been conducted to explore effective techniques for summarising document, with automatic summarisation applied on scientific articles \cite{Altmami2022Automatic}, new articles \cite{Oliveira2024Assessing} and medical documents \cite{Sarker2012Extractive}.
+
+Automatic summarisation has also been applied to legal documents \cite{Hachey2006Extractive} and, more specifically, legislative document; for instance Kornilova and Eidelman \cite{Kornilova2019Billsum} benchmark extractive technques on BillSum, a dataset for summarisation of US Congressional and Carlifonia state bills with their results demonstrating the potential of transfer learning.
+
+The work presented in this paper focuses on legislative documents prepared adn formated by the National Assembly of Zambia, presenting unique challenges specific to this context.
+
+\subsection{Document Summarisation Evaluation}
+\label{sec:related_work:evaluation}
+Evaluation of document summarisation primarily uses two approaches: automatic summarisation techniques and human evaluation \cite{Steinberger2009Evaluation}. Automatic evaluation largely uses traditional metrics such as ROUGE\footnote{https://huggingface.co/spaces/evaluate\-metric/rouge} or BERTScore\footnote{https://huggingface.co/spaces/evaluate\-metric/bertscore}, while human evlauation approaches largely focus on subjective quality of resulting text.
+
+The work presented in the paper employed human evaluation techniques as the primary goal was to assess the comprehensiveness of summaries, comparatively.
 
 \section{Methodology}
 \label{sec:methodology}
@@ -161,7 +183,7 @@ Xxxxx xxxxx xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx
 
 \begin{figure}%%%%%[htbp]
 \fbox{%
-\scalebox{0.325}{\includegraphics{figures/img-icict24-summary2_output.png}}
+\scalebox{0.345}{\includegraphics{figures/img-icict24-summary2_output.png}}
 }%
 \caption{Summmary 2: .}
 \label{fig:results_and_discussion:summarisation_models:summary2}
