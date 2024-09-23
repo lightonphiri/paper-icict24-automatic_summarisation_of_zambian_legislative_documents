@@ -169,31 +169,159 @@ Each participant was required to sign a consent form and subsequently required t
 
 \section{Results and Discussion}
 \label{sec:results_and_discussion}
-Xxxxx xxxxx xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx.
+
+\subsection{Understanding Legislative Documents}
+\label{sec:results_and_discussion:challenges}
+
+The survey gathered responses from 126 undergraduate students, primarily falling within the
+18-25 age group, with a mix of participants from various schools and programs of study.
+Notably, Humanities and Social Sciences and Veterinary Medicine constituted the majority of
+participants. The survey covered students from different study years, with a substantial
+representation from Year 2 and Year 3.
+
+The results indicate that a significant portion of participants (98.4\%) have interacted with
+Zambian legislative documents, though the frequency varied. The participants provided
+diverse responses regarding their overall understanding of legal documents, with the majority
+falling within the mid-range on a scale of 1-5.
+
+\begin{figure}%%%%%[htbp]
+\fbox{%
+\scalebox{0.425}{\includegraphics{figures/img-icict24-factors_affecting_legislative_documents.eps}}
+}%
+\caption{Summmary 2: .}
+\label{fig:results_and_discussion:challenges:challenges}
+\end{figure}
+
+Participants highlighted various challenges in understanding legal documents, as shown in \Cref{fig:results_and_discussion:challenges:challenges}, including
+complex legal terminology, lengthy sentences, unclear or ambiguous language, lack of
+familiarity with legal concepts, and difficulty interpreting legal jargon. These challenges
+point to potential barriers that may hinder effective comprehension of legislative materials.
 
 
 \begin{figure}%%%%%[htbp]
 \fbox{%
-\scalebox{0.65}{\includegraphics{figures/img-icict24-summary1_output.png}}
+\scalebox{0.415}{\includegraphics{figures/img-icict24-factors_affecting_legislative_documents_extent.eps}}
 }%
-\caption{Summmary 1: .}
+\caption{Summmary 2: .}
+\label{fig:results_and_discussion:challenges:understanding}
+\end{figure}
+
+Factors such as complex legal terminology, lengthy sentences, unclear language, lack of
+familiarity with legal concepts, and difficulty interpreting legal jargon were identified as
+influencing participants' understanding of legal documents, as shown in \Cref{fig:results_and_discussion:challenges:understanding}. These insights underscore the
+need for targeted interventions to address these specific challenges
+
+Participants provided valuable comments and suggestions, emphasising the importance of
+brevity and clarity in legal documents. Recommendations included minimising lengthy
+sentences, avoiding technical jargon, and making legal documents more accessible.
+
+The survey conducted at the University of Zambia sheds light on the challenges
+undergraduate students face in understanding legal documents. The findings indicate a
+diverse range of difficulties, encompassing language complexity, sentence structure, and a
+lack of familiarity with legal concepts. The insights from this study pave the way for potential
+improvements in legal document accessibility and comprehension. The use of automatic
+summarization software is suggested as a possible solution to address these challenges,
+providing concise and clear summaries of legislative materials.
+
+\subsection{Automatic Summarisation}
+\label{sec:results_and_discussion:automatic_summarisation}
+
+\subsubsection{Data Extraction and Pre-processing}
+\label{sec:results_and_discussion:automatic_summarisation:data_extraction}
+The Python programming language\footnote{https://www.python.org} was used to implement the summarisation models. A two-step process was used to extract data from PDF documents for the purpose of preparing it for subsequent data cleaning. The primary library used for this extraction was PyMuPDF\footnote{https://github.com/pymupdf/PyMuPDF}, specifically the fitz module. This library allows for efficient handling of PDF documents in Python.
+
+In order to use a standardised representation of textual input, case folding was applied to input text.
+
+\subsubsection{Extractive Summarisation Model}
+\label{sec:results_and_discussion:automatic_summarisation:extractive}
+
+The evolution of word embedding models progressed with Mikolov et al., who introduced the word2vec model based on skip-grams. This model extended our understanding of word relationships by considering complex
+associations, including opposites, tenses, plurals, and phrases. Here, the SpaCy\footnote{https://spacy.io} library plays a
+pivotal role in text processing, aiding in the identification and removal of stop words and
+punctuation.
+
+\Cref{fig:results_and_discussion:summarisation_models:summary1} illustrates a sample output for the abstractive summarisation model.
+
+\begin{figure}%%%%%[htbp]
+\fbox{%
+\scalebox{0.65}{\includegraphics{figures/img-icict24-summary1_output.eps}}
+}%
+\caption{Summmary 1: Extractive Summarisation.}
 \label{fig:results_and_discussion:summarisation_models:summary1}
 \end{figure}
 
 
+\subsubsection{Abstractive Summarisation Model}
+\label{sec:results_and_discussion:automatic_summarisation:abstractive}
+
+The abstractive summarisation model was implemented using the BART model from the Hugging Face Transformers library. The
+code utilized the "transformers" library to import the necessary components, including the pipeline for text generation, the BART tokenizer, and the BART model for conditional generation. Within the "abstractive\_summarize" function, the pre-trained BART model and tokenizer were loaded using the specified model name "facebook/bart-large-cnn". The input text was then tokenized, and the summary was generated using the BART model. The "generate" method of the model was utilized to produce the summary, with parameters such as maximum and minimum length, length penalty, number of beams, and early stopping specified to control the summarization process. This approach proved to be successful in producing abstractive summaries with the BART model, leveraging its capabilities for text generation and summarization.
+
+\Cref{fig:results_and_discussion:summarisation_models:summary2} illustrates a sample output for the abstractive summarisation model.
+
 \begin{figure}%%%%%[htbp]
 \fbox{%
-\scalebox{0.345}{\includegraphics{figures/img-icict24-summary2_output.png}}
+\scalebox{0.345}{\includegraphics{figures/img-icict24-summary2_output.eps}}
 }%
-\caption{Summmary 2: .}
+\caption{Summmary 2: Abstractive Summarisation.}
 \label{fig:results_and_discussion:summarisation_models:summary2}
 \end{figure}
 
+By integrating both extractive and abstractive techniques, this project aimed to provide a comprehensive understanding of Zambian legislative materials. The use of diverse Python libraries, including SpaCy for extractive summarization and Transformers BART Model for abstractive summarization, showcased a multifaceted approach to effectively distill and present critical information from lengthy legal documents.
+
+
+\subsection{Human Comparative Evaluation}
+\label{sec:results_and_discussion:human_evaluation}
+
+\begin{figure}%%%%%[htbp]
+\fbox{%
+\scalebox{0.425}{\includegraphics{figures/img-icict24-summary1-relevance.eps}}
+}%
+\caption{Summmary 1: Relevance.}
+\label{fig:results_and_discussion:summarisation_models:summary1_relevance}
+\end{figure}
+
+The purpose of this evaluation was to assess the effectiveness of automatic summarization techniques applied to Zambian legislative documents. The participants were asked to read two summaries (Summary 1 - extractive summary, and Summary 2 - abstractive summary) generated from the original legislative document. The evaluation focused on relevance, readability, and preference for conveying information.
+
+\begin{figure}%%%%%[htbp]
+\fbox{%
+\scalebox{0.425}{\includegraphics{figures/img-icict24-summary2-relevance.eps}}
+}%
+\caption{Summmary 2: Relevance.}
+\label{fig:results_and_discussion:summarisation_models:summary2_relevance}
+\end{figure}
+
+A total of nine participants participated in the comparative evaluation.
+
+The majority of participants who preferred Summary 2 cited its brevity, simplicity, and directness as reasons for their choice. Participants mentioned that Summary 2 was easier to understand and more straightforward. One participant specifically noted that Summary 2 was "straight to the point," enhancing quick comprehension. two participants provided feedback, with one expressing a positive sentiment, stating, "This is good." The other participant did not provide specific comments.
+
+The evaluation indicates a strong preference for Summary 2, the abstractive summary, among participants. While both summaries received similar ratings for relevance and readability, the brevity and directness of Summary 2 seemed to resonate more with participants. The positive feedback aligns with the project's goal of enhancing the accessibility of Zambian legislative information through automatic summarization.
+
+In the relevance evaluation, for the extractive summary (Summary 1), participants rated it between 3 and 8, with none selecting 1, 2, 9, or 10. Similarly, for the abstractive summary (Summary 2), ratings ranged from 3 to 10, with no
+participants choosing 1 or 2. In terms of readability, both summaries achieved average scores
+around 4.5, reflecting moderate levels of readability. Significantly, the majority of participants (88.9\%) expressed a preference for Summary 2, citing its brevity, simplicity, and directness as reasons for their choice. This preference aligns with the feedback received, where participants highlighted that Summary 2 was easier to understand and more straightforward, with one participant specifically noting that it was "straight to the point," facilitating quick comprehension. Out of the two participants who provided feedback, one expressed a positive sentiment, stating, "This is good," while the other did not provide specific comments.
+
+\begin{figure}%%%%%[htbp]
+\fbox{%
+\scalebox{0.425}{\includegraphics{figures/img-icict24-summary1-readability.eps}}
+}%
+\caption{Summmary 1: Readability.}
+\label{fig:results_and_discussion:summarisation_models:summary1_readability}
+\end{figure}
+
+
+\begin{figure}%%%%%[htbp]
+\fbox{%
+\scalebox{0.425}{\includegraphics{figures/img-icict24-summary2-readability.eps}}
+}%
+\caption{Summmary 2: Readability.}
+\label{fig:results_and_discussion:summarisation_models:summary2_readability}
+\end{figure}
 
 \section{Conclusions and Future Work}
 \label{sec:conclusion}
-Xxxxx xxxxx xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx  xxxxx.
-
+The imperative for automating the summarization of Zambian Legislative Documents becomes evident as it presents an opportunity for citizens to gain quick and enhanced comprehension of lengthy legal documents, including Acts of Parliament. This study aimed at identifying challenges in understanding legislative documents, developing and implementing
+an NLP model for automatic summarization, and assessing the model's effectiveness. The evaluation underscores the efficiency of abstractive summarization techniques, particularly noting participant preference in conveying information. These findings offer valuable insights into the strengths and preferences of various summarization approaches, guiding future initiatives to improve the accessibility and understanding of Zambian legislative documents.
 
 % % % % % \section*{References}
 

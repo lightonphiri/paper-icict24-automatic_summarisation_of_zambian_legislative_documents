@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.7)  23 SEP 2024 23:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.7)  24 SEP 2024 00:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -359,28 +359,217 @@ Package pdftex.def Info: figures/img-icict24-statutory_instrument12_2018-eps-co
 nverted-to.pdf  used on input line 128.
 (pdftex.def)             Requested size: 1605.99611pt x 590.20355pt.
  [2]
-<figures/img-icict24-summary1_output.png, id=15, 373.395pt x 387.24675pt>
-File: figures/img-icict24-summary1_output.png Graphic file (type png)
-<use figures/img-icict24-summary1_output.png>
-Package pdftex.def Info: figures/img-icict24-summary1_output.png  used on input
- line 178.
-(pdftex.def)             Requested size: 373.39409pt x 387.24579pt.
+Package epstopdf Info: Source file: <figures/img-icict24-factors_affecting_legi
+slative_documents.eps>
+(epstopdf)                    date: 2024-09-23 23:45:39
+(epstopdf)                    size: 1188055 bytes
+(epstopdf)             Output file: <figures/img-icict24-factors_affecting_legi
+slative_documents-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-09-23 23:46:37
+(epstopdf)                    size: 57851 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/img-icict24-factor
+s_affecting_legislative_documents-eps-converted-to.pdf figures/img-icict24-fact
+ors_affecting_legislative_documents.eps>
+(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Output file is already uptodate.
+<figures/img-icict24-factors_affecting_legislative_documents-eps-converted-to.p
+df, id=15, 579.16376pt x 190.7125pt>
+File: figures/img-icict24-factors_affecting_legislative_documents-eps-converted
+-to.pdf Graphic file (type pdf)
+<use figures/img-icict24-factors_affecting_legislative_documents-eps-converted-
+to.pdf>
+Package pdftex.def Info: figures/img-icict24-factors_affecting_legislative_docu
+ments-eps-converted-to.pdf  used on input line 190.
+(pdftex.def)             Requested size: 579.16234pt x 190.71202pt.
 
-Overfull \hbox (1.00392pt too wide) in paragraph at lines 178--179
+Overfull \hbox (4.4458pt too wide) in paragraph at lines 190--191
 [][] 
  []
 
-<figures/img-icict24-summary2_output.png, id=17, 693.18974pt x 390.86024pt>
-File: figures/img-icict24-summary2_output.png Graphic file (type png)
-<use figures/img-icict24-summary2_output.png>
-Package pdftex.def Info: figures/img-icict24-summary2_output.png  used on input
- line 187.
-(pdftex.def)             Requested size: 693.18805pt x 390.85928pt.
-(./paper-icict24-automatic_summarisation_of_zambian_legislative_documents.bbl
-Underfull \vbox (badness 1824) has occurred while \output is active []
+Package epstopdf Info: Source file: <figures/img-icict24-factors_affecting_legi
+slative_documents_extent.eps>
+(epstopdf)                    date: 2024-09-23 23:45:45
+(epstopdf)                    size: 1206174 bytes
+(epstopdf)             Output file: <figures/img-icict24-factors_affecting_legi
+slative_documents_extent-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-09-23 23:47:24
+(epstopdf)                    size: 24909 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/img-icict24-factor
+s_affecting_legislative_documents_extent-eps-converted-to.pdf figures/img-icict
+24-factors_affecting_legislative_documents_extent.eps>
+(epstopdf)             \includegraphics on input line 204.
+Package epstopdf Info: Output file is already uptodate.
+<figures/img-icict24-factors_affecting_legislative_documents_extent-eps-convert
+ed-to.pdf, id=16, 592.2125pt x 188.705pt>
+File: figures/img-icict24-factors_affecting_legislative_documents_extent-eps-co
+nverted-to.pdf Graphic file (type pdf)
+<use figures/img-icict24-factors_affecting_legislative_documents_extent-eps-con
+verted-to.pdf>
+Package pdftex.def Info: figures/img-icict24-factors_affecting_legislative_docu
+ments_extent-eps-converted-to.pdf  used on input line 204.
+(pdftex.def)             Requested size: 592.21104pt x 188.70453pt.
 
- [3 <./figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf> <.
-/figures/img-icict24-summary1_output.png>]
+Overfull \hbox (4.06364pt too wide) in paragraph at lines 204--205
+[][] 
+ []
+
+[3 <./figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf> <./
+figures/img-icict24-factors_affecting_legislative_documents-eps-converted-to.pd
+f> <./figures/img-icict24-factors_affecting_legislative_documents_extent-eps-co
+nverted-to.pdf>]
+Package epstopdf Info: Source file: <figures/img-icict24-summary1_output.eps>
+(epstopdf)                    date: 2024-09-23 22:43:48
+(epstopdf)                    size: 2428354 bytes
+(epstopdf)             Output file: <figures/img-icict24-summary1_output-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2024-09-24 00:06:18
+(epstopdf)                    size: 69213 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/img-icict24-summar
+y1_output-eps-converted-to.pdf figures/img-icict24-summary1_output.eps>
+(epstopdf)             \includegraphics on input line 248.
+Package epstopdf Info: Output file is already uptodate.
+<figures/img-icict24-summary1_output-eps-converted-to.pdf, id=26, 373.395pt x 3
+87.4475pt>
+File: figures/img-icict24-summary1_output-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use figures/img-icict24-summary1_output-eps-converted-to.pdf>
+Package pdftex.def Info: figures/img-icict24-summary1_output-eps-converted-to.p
+df  used on input line 248.
+(pdftex.def)             Requested size: 373.39409pt x 387.44655pt.
+
+Overfull \hbox (1.00392pt too wide) in paragraph at lines 248--249
+[][] 
+ []
+
+Package epstopdf Info: Source file: <figures/img-icict24-summary2_output.eps>
+(epstopdf)                    date: 2024-09-23 22:44:00
+(epstopdf)                    size: 4545184 bytes
+(epstopdf)             Output file: <figures/img-icict24-summary2_output-eps-co
+nverted-to.pdf>
+(epstopdf)                    date: 2024-09-24 00:06:21
+(epstopdf)                    size: 105432 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/img-icict24-summar
+y2_output-eps-converted-to.pdf figures/img-icict24-summary2_output.eps>
+(epstopdf)             \includegraphics on input line 265.
+Package epstopdf Info: Output file is already uptodate.
+<figures/img-icict24-summary2_output-eps-converted-to.pdf, id=27, 693.59125pt x
+ 390.45876pt>
+File: figures/img-icict24-summary2_output-eps-converted-to.pdf Graphic file (ty
+pe pdf)
+<use figures/img-icict24-summary2_output-eps-converted-to.pdf>
+Package pdftex.def Info: figures/img-icict24-summary2_output-eps-converted-to.p
+df  used on input line 265.
+(pdftex.def)             Requested size: 693.58955pt x 390.4578pt.
+Package epstopdf Info: Source file: <figures/img-icict24-summary1-relevance.eps
+>
+(epstopdf)                    date: 2024-09-24 00:27:02
+(epstopdf)                    size: 1089641 bytes
+(epstopdf)             Output file: <figures/img-icict24-summary1-relevance-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2024-09-24 00:28:58
+(epstopdf)                    size: 15891 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/img-icict24-summar
+y1-relevance-eps-converted-to.pdf figures/img-icict24-summary1-relevance.eps>
+(epstopdf)             \includegraphics on input line 279.
+Package epstopdf Info: Output file is already uptodate.
+<figures/img-icict24-summary1-relevance-eps-converted-to.pdf, id=28, 571.13374p
+t x 176.66pt>
+File: figures/img-icict24-summary1-relevance-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use figures/img-icict24-summary1-relevance-eps-converted-to.pdf>
+Package pdftex.def Info: figures/img-icict24-summary1-relevance-eps-converted-t
+o.pdf  used on input line 279.
+(pdftex.def)             Requested size: 571.13235pt x 176.65956pt.
+
+Overfull \hbox (1.03304pt too wide) in paragraph at lines 279--280
+[][] 
+ []
+
+[4 <./figures/img-icict24-summary1_output-eps-converted-to.pdf> <./figures/img-
+icict24-summary2_output-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <figures/img-icict24-summary2-relevance.eps
+>
+(epstopdf)                    date: 2024-09-24 00:27:09
+(epstopdf)                    size: 1080416 bytes
+(epstopdf)             Output file: <figures/img-icict24-summary2-relevance-eps
+-converted-to.pdf>
+(epstopdf)                    date: 2024-09-24 00:28:59
+(epstopdf)                    size: 16813 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/img-icict24-summar
+y2-relevance-eps-converted-to.pdf figures/img-icict24-summary2-relevance.eps>
+(epstopdf)             \includegraphics on input line 289.
+Package epstopdf Info: Output file is already uptodate.
+<figures/img-icict24-summary2-relevance-eps-converted-to.pdf, id=36, 571.13374p
+t x 175.65625pt>
+File: figures/img-icict24-summary2-relevance-eps-converted-to.pdf Graphic file 
+(type pdf)
+<use figures/img-icict24-summary2-relevance-eps-converted-to.pdf>
+Package pdftex.def Info: figures/img-icict24-summary2-relevance-eps-converted-t
+o.pdf  used on input line 289.
+(pdftex.def)             Requested size: 571.13235pt x 175.6558pt.
+
+Overfull \hbox (1.03304pt too wide) in paragraph at lines 289--290
+[][] 
+ []
+
+Package epstopdf Info: Source file: <figures/img-icict24-summary1-readability.e
+ps>
+(epstopdf)                    date: 2024-09-24 00:27:15
+(epstopdf)                    size: 1074001 bytes
+(epstopdf)             Output file: <figures/img-icict24-summary1-readability-e
+ps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figures/img-icict24-summar
+y1-readability-eps-converted-to.pdf figures/img-icict24-summary1-readability.ep
+s>
+(epstopdf)             \includegraphics on input line 307.
+runsystem(repstopdf --outfile=figures/img-icict24-summary1-readability-eps-conv
+erted-to.pdf figures/img-icict24-summary1-readability.eps)...executed safely (a
+llowed).
+
+Package epstopdf Info: Result file: <figures/img-icict24-summary1-readability-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2024-09-24 00:30:43
+(epstopdf)                    size: 18392 bytes.
+<figures/img-icict24-summary1-readability-eps-converted-to.pdf, id=37, 573.1412
+5pt x 173.64874pt>
+File: figures/img-icict24-summary1-readability-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use figures/img-icict24-summary1-readability-eps-converted-to.pdf>
+Package pdftex.def Info: figures/img-icict24-summary1-readability-eps-converted
+-to.pdf  used on input line 307.
+(pdftex.def)             Requested size: 573.13985pt x 173.64832pt.
+
+Overfull \hbox (1.88623pt too wide) in paragraph at lines 307--308
+[][] 
+ []
+
+Package epstopdf Info: Source file: <figures/img-icict24-summary2-readability.e
+ps>
+(epstopdf)                    date: 2024-09-24 00:27:23
+(epstopdf)                    size: 1068756 bytes
+(epstopdf)             Output file: <figures/img-icict24-summary2-readability-e
+ps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=figures/img-icict24-summar
+y2-readability-eps-converted-to.pdf figures/img-icict24-summary2-readability.ep
+s>
+(epstopdf)             \includegraphics on input line 316.
+runsystem(repstopdf --outfile=figures/img-icict24-summary2-readability-eps-conv
+erted-to.pdf figures/img-icict24-summary2-readability.eps)...executed safely (a
+llowed).
+
+Package epstopdf Info: Result file: <figures/img-icict24-summary2-readability-e
+ps-converted-to.pdf>
+(epstopdf)                    date: 2024-09-24 00:30:44
+(epstopdf)                    size: 17588 bytes.
+<figures/img-icict24-summary2-readability-eps-converted-to.pdf, id=38, 567.1187
+4pt x 174.6525pt>
+File: figures/img-icict24-summary2-readability-eps-converted-to.pdf Graphic fil
+e (type pdf)
+<use figures/img-icict24-summary2-readability-eps-converted-to.pdf>
+Package pdftex.def Info: figures/img-icict24-summary2-readability-eps-converted
+-to.pdf  used on input line 316.
+(pdftex.def)             Requested size: 567.11736pt x 174.65207pt.
+(./paper-icict24-automatic_summarisation_of_zambian_legislative_documents.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 30--34
 []\OT1/ptm/m/n/8 ------, ``The Na-tional As-sem-bly of Zam-
  []
@@ -396,7 +585,10 @@ Overfull \hbox (73.1726pt too wide) in paragraph at lines 30--34
 s/Strategic%20Plan%202022-
  []
 
-)
+[5 <./figures/img-icict24-summary1-relevance-eps-converted-to.pdf> <./figures/i
+mg-icict24-summary2-relevance-eps-converted-to.pdf> <./figures/img-icict24-summ
+ary1-readability-eps-converted-to.pdf> <./figures/img-icict24-summary2-readabil
+ity-eps-converted-to.pdf>])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -408,20 +600,24 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
+[6
 
- <./figures/img-icict24-summary2_output.png>]
+]
 (./paper-icict24-automatic_summarisation_of_zambian_legislative_documents.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 6277 strings out of 475237
- 112517 string characters out of 5764559
+ 6344 strings out of 475237
+ 117174 string characters out of 5764559
  1935244 words of memory out of 5000000
- 27474 multiletter control sequences out of 15000+600000
+ 27541 multiletter control sequences out of 15000+600000
  601561 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,2534b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -431,10 +627,10 @@ l/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive
 /2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texm
 f-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on paper-icict24-automatic_summarisation_of_zambian_legislative_
-documents.pdf (4 pages, 453280 bytes).
+documents.pdf (6 pages, 633699 bytes).
 PDF statistics:
- 51 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
