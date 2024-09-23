@@ -41,4 +41,13 @@
 M.~J. Masson and O.~Tahir, ``The legal information needs of civil society in
   zambia,'' \emph{Journal of Open Access to Law}, vol.~4, no.~1, 2016.
 
+\bibitem{Wirth2000CRISPDM}
+\BIBentryALTinterwordspacing
+R.~Wirth and J.~Hipp, ``{CRISP-DM}: Towards a standard process model for data
+  mining,'' in \emph{Proceedings of the Fourth International Conference on the
+  Practical Application of Knowledge Discovery and Data Mining}, 2000, pp.
+  29--39. [Online]. Available:
+  \url{http://cs.unibo.it/~danilo.montesi/CBD/Beatriz/10.1.1.198.5133.pdf}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

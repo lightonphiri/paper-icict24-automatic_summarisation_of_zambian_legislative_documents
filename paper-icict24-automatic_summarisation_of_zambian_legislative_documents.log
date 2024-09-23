@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.7)  23 SEP 2024 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.7)  23 SEP 2024 22:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -261,44 +261,53 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 (/usr/local/texlive/2023/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 )
+(/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen175
+\enit@toks=\toks24
+\enit@inbox=\box55
+\enit@count@id=\count282
+\enitdp@description=\count283
+)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count282
-\l__pdf_internal_box=\box55
+\l__color_backend_stack_int=\count284
+\l__pdf_internal_box=\box56
 )
 (./paper-icict24-automatic_summarisation_of_zambian_legislative_documents.aux)
 \openout1 = `paper-icict24-automatic_summarisation_of_zambian_legislative_docum
 ents.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 -- Lines per column: 56 (exact).
 (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen175
-\scratchbox=\box56
-\nofMPsegments=\count284
-\nofMParguments=\count285
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen176
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count285
+\scratchdimen=\dimen176
+\scratchbox=\box57
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen177
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -308,14 +317,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 55.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 61.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -328,6 +337,28 @@ local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
+Package epstopdf Info: Source file: <figures/img-icict24-statutory_instrument12
+_2018.eps>
+(epstopdf)                    date: 2024-09-23 21:54:59
+(epstopdf)                    size: 1913465 bytes
+(epstopdf)             Output file: <figures/img-icict24-statutory_instrument12
+_2018-eps-converted-to.pdf>
+(epstopdf)                    date: 2024-09-23 21:56:29
+(epstopdf)                    size: 234156 bytes
+(epstopdf)             Command: <repstopdf --outfile=figures/img-icict24-statut
+ory_instrument12_2018-eps-converted-to.pdf figures/img-icict24-statutory_instru
+ment12_2018.eps>
+(epstopdf)             \includegraphics on input line 99.
+Package epstopdf Info: Output file is already uptodate.
+<figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf, id=10, 1
+606.0pt x 590.205pt>
+File: figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf Grap
+hic file (type pdf)
+<use figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf>
+Package pdftex.def Info: figures/img-icict24-statutory_instrument12_2018-eps-co
+nverted-to.pdf  used on input line 99.
+(pdftex.def)             Requested size: 1605.99611pt x 590.20355pt.
+
 (./paper-icict24-automatic_summarisation_of_zambian_legislative_documents.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 30--34
 []\OT1/ptm/m/n/8 ------, ``The Na-tional As-sem-bly of Zam-
@@ -344,7 +375,7 @@ Overfull \hbox (69.1726pt too wide) in paragraph at lines 30--34
 s/Strategic%20Plan%202022-
  []
 
-)
+[2])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -356,9 +387,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
+[3
 
-]
+ <./figures/img-icict24-statutory_instrument12_2018-eps-converted-to.pdf>]
 (./paper-icict24-automatic_summarisation_of_zambian_legislative_documents.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
@@ -366,22 +397,23 @@ L3 programming layer <2023-06-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5858 strings out of 475237
- 103638 string characters out of 5764559
+ 6243 strings out of 475237
+ 111193 string characters out of 5764559
  1935244 words of memory out of 5000000
- 27065 multiletter control sequences out of 15000+600000
- 593904 words of font info for 102 fonts, out of 8000000 for 9000
+ 27440 multiletter control sequences out of 15000+600000
+ 601561 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,2535b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
-cal/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texli
-ve/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/te
-xmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+ 57i,11n,65p,2534b,334s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+</usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/loca
+l/texlive/2023/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive
+/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/urw/times/utmri8a.pfb>
 Output written on paper-icict24-automatic_summarisation_of_zambian_legislative_
-documents.pdf (2 pages, 61581 bytes).
+documents.pdf (3 pages, 310597 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
